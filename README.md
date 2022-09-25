@@ -3,7 +3,7 @@
 ## :ledger: Index
 
 - [Introduction](#Introduction)
-- [The Dataset](#The Dataset)
+- [The Dataset](#The_Dataset)
 - [EDA](#EDA) 
 - [Apriori](#Apriori Algorithm)
 - [Determining Rules](#Determining Rules)
