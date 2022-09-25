@@ -668,7 +668,7 @@ ax.set(xlabel='Year',title="Number of Transactions per Year");
 
 
     
-![png](output_22_0.png)
+![png](Images_MBA/output_22_0.png)
     
 
 
@@ -685,7 +685,7 @@ ax.set(xlabel='Day',title="Transactions per day of the week");
 
 
     
-![png](output_24_0.png)
+![png](Images_MBA/output_24_0.png)
     
 
 
@@ -702,7 +702,7 @@ ax.set(xlabel='Products',title="Top 10 products");
 
 
     
-![png](output_26_0.png)
+![png](Images_MBA/output_26_0.png)
     
 
 
@@ -719,7 +719,7 @@ ax.set(xlabel='Products',title="Worst 10 products");
 
 
     
-![png](output_28_0.png)
+![png](Images_MBA/output_28_0.png)
     
 
 
@@ -736,7 +736,7 @@ ax.set(xlabel='Customer ID',title="Top 20 Customers");
 
 
     
-![png](output_30_0.png)
+![png](Images_MBA/output_30_0.png)
     
 
 
