@@ -5,10 +5,10 @@
 - [Introduction](#Introduction)
 - [The Dataset](#The-Dataset)
 - [EDA](#EDA) 
-- [Apriori](#Apriori Algorithm)
-- [Determining Rules](#Determining Rules)
-- [Interpreting Metrics](#Interpreting Metrics)
-- [Findings and Conclusions](#Findings and Conclusions)
+- [Apriori](#Apriori-Algorithm)
+- [Determining Rules](#Determining-Rules)
+- [Interpreting Metrics](#Interpreting-Metrics)
+- [Findings and Conclusions](#Findings-and-Conclusions)
 
 
 ## Introduction
