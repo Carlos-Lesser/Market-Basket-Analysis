@@ -1,13 +1,17 @@
 # Market-Basket-Analysis
-## Table of content
 
-1. Introduction
-2. The Dataset
-3. EDA
-4. Implementing Apriori
-5. Findings and Conclusion
+## :ledger: Index
 
-**Introduction**
+- [Introduction](#Introduction)
+- [The Dataset](#The Dataset)
+- [EDA](#EDA) 
+- [Apriori](#fire-contribution)
+- [Determining Rules](#Determining Rules)
+- [Interpreting Metrics](#Interpreting Metrics)
+- [Findings and Conclusions](#dog-Conclusion)
+
+
+## Introduction
 
 Market Basket Analysis (MBA) is the process to identify customers buying habits by finding associations between the different items that customers place in their “shopping baskets”. Thia analysis is helpful for  retailers or E-Commerce to develop marketing strategies by gaining insight into which items are frequently bought together by customers.
 
@@ -22,12 +26,12 @@ There are multiple algorithms that can be used in MBA to predict the probability
 
 In this project I would be exploring the Apriori Algorithm.
 
-**The Dataset**
+## The Dataset
 
 The groceries dataset was published by Heeral Dedhia on 2020 and can be download in [Kraggle](https://www.kaggle.com/datasets/heeraldedhia/groceries-dataset?resource=download).The dataset has 38765 rows of the purchase orders of people from the grocery stores. These orders can be analysed and association rules can be generated using Market Basket Analysis by algorithms like Apriori Algorithm.
 
 
-**EDA**
+## EDA
 
 In this section we will be reading the dataset and doing some exploratory data analysis
 
@@ -738,7 +742,7 @@ ax.set(xlabel='Customer ID',title="Top 20 Customers");
 
 From the plot above we can observe that top costumers tend two have a total of 35 -30 transaction from 2014 to 2015. 
 
-### Apriori Algorithm
+## Apriori Algorithm
 
 To do the Market Basket analysis i would use the Apriori Algorithm. I won't get into any detail for the math behind the algorithm.[Wikipedia has the exact details on how it works](https://en.wikipedia.org/wiki/Apriori_algorithm).
 
@@ -789,7 +793,7 @@ onehot_basket.shape
 
 
 
-### Determining Rules
+## Determining Rules
 Once our data is in the format above, we can begin to determine association rules.
 
 Here, we calculate several metrics to analyse the rules. These are calculated automatically by the package, but we will take time to understand them.
@@ -987,7 +991,7 @@ df_rules
 
 
 
-### Interpreting Metrics
+## Interpreting Metrics
 
 We have a lot of of metrics in the data frame above and is important to understand this metrics and how to get insight from it.
 
@@ -1685,7 +1689,7 @@ df_rules.head(10)
 
 
 
-### Findings
+## Findings and Conclusions
 
 From the above we can observe the following: 
 
@@ -1693,5 +1697,4 @@ From the above we can observe the following:
 - We can place consequent items if possible next to the antecedent items to drive sales. 
 - For items that can be place next to each other , like detergent and whole milk we can make sure that the layout of the stores are close to each others. . 
 
-## conclusion
 Using Apriori algorithm is a very useful technique to find associations between items. In addition, They are easy to implement and explain. However for more complex insights, such as the ones been used by Amazon, Google, Netflix we can use recommendation systems. 
