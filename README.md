@@ -652,7 +652,7 @@ plt.title("Average of Transactions per Year by Month", fontsize=14);
 
 
     
-![png](output_20_0.png)
+![png](Images_MBA/output_20_0.png)
     
 
 
